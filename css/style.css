@@ -806,7 +806,16 @@ body {
     align-items: center;
     gap: 40px;
   }
-
+  .current::after {
+    content: "";
+    position: absolute;
+    bottom: -31px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover-color);
+    border-radius: 2px;
+  }
   /*==========================================================*/
   /*===========================HERO===========================*/
   .main-page {
