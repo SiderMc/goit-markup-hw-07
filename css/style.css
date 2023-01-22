@@ -645,7 +645,7 @@ body {
   .current::after {
     content: "";
     position: absolute;
-    bottom:29px;
+    bottom:-11px;
     left: 0;
     width: 100%;
     height: 4px;
@@ -810,7 +810,7 @@ body {
   .current::after {
     content: "";
     position: absolute;
-    bottom: -31px;
+    bottom: -29px;
     left: 0;
     width: 100%;
     height: 4px;
