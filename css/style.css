@@ -940,30 +940,31 @@ body {
 /*=========================MOBILE MENU===========================*/
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .mobile-menu {
-    transform: translatex(-200%);
+    transform: translateX(-200%);
+    overflow: hidden;
+    height: 0;
   }
-  body {
-    height: 100vh;
-  }
+ 
   .mobile-menu.is-hidden {
-    min-width: 100%;
+    width: 100%;
     height: 100%;
     background-color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
-    overflow-y: auto;
+    overflow:visible;
     transform: translatex(0);
     transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mobile-menu-container {
+    height: 100%;
     max-width: 428px;
     margin: 0 auto;
     padding: 40px;
   }
   .mobile-menu-content {
     position: relative;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -984,8 +985,8 @@ body {
     right: 0;
   }
   .mobile-nav {
-    padding-top: 24px;
-    flex-grow: 1;
+    padding: 24px 0;
+    margin-bottom: auto;
     opacity: 0;
   }
   .mobile-menu.is-hidden .mobile-nav,
