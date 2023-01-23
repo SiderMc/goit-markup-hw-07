@@ -92,11 +92,10 @@ body {
   .main-page {
     padding-bottom: 96px;
   }
-  .hero-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .hero {
+    margin: 0 auto;
     padding: 112px 0;
+    text-align: center;
   }
   .hero-title {
     font-size: 36px;
@@ -822,7 +821,8 @@ body {
   .main-page {
     padding-bottom: 120px;
   }
-  .hero-content {
+  .hero {
+    max-width: 1440px;
     padding: 188px 0;
   }
   .hero-title {
@@ -1148,7 +1148,7 @@ body {
       url(../images/mobile/people-office.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: cover cover;
   }
 }
 @media screen and (min-divice-pixel-ratio: 2) and (min-width: 320px) and (max-width: 428px),
@@ -1160,9 +1160,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/mobile/people-office@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 @media screen and (min-divice-pixel-ratio: 3) and (min-width: 320px) and (max-width: 428px),
@@ -1174,9 +1174,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/mobile/people-office@3x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 /*-----------------TABLET---------------------------*/
@@ -1189,9 +1189,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tablet/Dark-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 @media screen and (min-divice-pixel-ratio: 2) and (min-width: 429px) and (max-width: 768px),
@@ -1203,9 +1203,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tablet/Dark-bg@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 
@@ -1218,9 +1218,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tablet/Dark-bg@3x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 
@@ -1229,14 +1229,14 @@ body {
   screen and (min-resolution: 88dpi) and (min-width: 769px),
   screen and (min-resolution: 1dppx) and (min-width: 769px) {
   .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
       url(../images/descktop/people-office.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 @media screen and (min-divice-pixel-ratio: 2) and (min-width: 769px),
@@ -1248,9 +1248,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/descktop/people-office@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 @media screen and (min-divice-pixel-ratio: 3) and (min-width: 769px),
@@ -1262,10 +1262,9 @@ body {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/descktop/people-office@3x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
-    max-width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover cover;
   }
 }
 /*====================================================*/
